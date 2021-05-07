@@ -1,0 +1,18 @@
+qty = [5,4,7,3,6,2,1] 
+
+print("initial list is : {}".format(qty))
+qty.insert(0,9)
+print("{}  9 inserted at begining".format(qty))
+qty.append(8)
+print("{}  8 inserted at end".format(qty))
+qty.insert(3,7) 
+print( "{}  7 iserted at 3rd position".format(qty)) 
+qty.remove(9) 
+print("{}  element at begining of list is deleted".format(qty)) 
+qty.pop() 
+print("{}  element at end of list is deleted".format(qty)) 
+qty.remove(3)
+print("{}  element at index position 4 in list is deleted".format(qty))
+qty.reverse()
+print("{}   reversed list ".format(qty)) 
+qty.clear() 
