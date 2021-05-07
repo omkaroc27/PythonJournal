@@ -1,2 +1,0 @@
-# PythonProjectFiles
-Python Journal 
